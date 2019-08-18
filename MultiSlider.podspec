@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yonat/MultiSlider.git", :tag => s.version }
   s.source_files  = "Sources/*.swift"
 
-  s.dependency 'MiniLayout'
-  s.dependency 'AvailableHapticFeedback'
+  s.dependency 'MiniLayout', '= 1.4.1'
+  s.dependency 'AvailableHapticFeedback', '= 1.0.0'
 end
